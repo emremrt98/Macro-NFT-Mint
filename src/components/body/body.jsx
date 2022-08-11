@@ -1,7 +1,7 @@
 import './body.css';
-import BodyImg from '../../assets/BodyBG.jpg';
-import { MdArrowForwardIos } from 'react-icons/md';
 
+import { MdArrowForwardIos } from 'react-icons/md';
+import { Link } from "react-router-dom";
 export default function Body() {
     return (
         <div className='body-contain'>
@@ -14,7 +14,8 @@ export default function Body() {
                     <h3 className='left-heading'>Current</h3>
                     <p className='left-count'>5BNB <span className='left-amount'>$326.96</span></p>
                     <div className='mind-contain'>
-                    <button className='mind-btn'>MIND</button><button className='mind-arrow'><MdArrowForwardIos /></button>
+                    
+                    <Link to="/minter" className='link-btn'><button className='mind-btn'>MIND</button><button className='mind-arrow'><MdArrowForwardIos /></button></Link>
                     </div>
                 </div>
             </div>

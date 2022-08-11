@@ -11,7 +11,9 @@
     font-size: 5rem;
     color: #fff;
 }
-
+.link-btn{
+    display: flex;
+}
 .body-heading {
     color: gray;
     margin-top: -20px;

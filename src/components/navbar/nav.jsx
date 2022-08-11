@@ -1,12 +1,12 @@
 import './nav.css';
 import { FiSearch } from 'react-icons/fi';
 import Logo from '../../assets/logo.svg'
+import { Link } from "react-router-dom";
 export default function Nav() {
     return (
         <div className='nav-contain'>
             <div>
-                <img className='logo ' src={Logo} alt="" srcSet='' />
-
+                <Link to="/home"><img className='logo ' src={Logo} alt="" srcSet='' /></Link>
             </div>
             <nav className="navbar">
                 <ul>
@@ -19,7 +19,7 @@ export default function Nav() {
                 <input className='search-input' type="text" placeholder='Search' /><FiSearch className='search-icon' />
 
             </form>
-            <button type='button'>Connect Wallet</button>
+            <Link to="/minter"><button type='button'>Connect Wallet</button></Link>
         </div>
     )
 

@@ -1,0 +1,41 @@
+#title {
+    font-size: 4rem;
+    color: #fff !important;
+}
+
+.minter-heading {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.mint-form-heading {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.mint-adress {
+    width: 600px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.Minter {
+    margin-top: 50px;
+}
+
+.Minter {
+    max-width: 80vh;
+    max-height: 80vh;
+    padding: 60px 100px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.minter-container {
+    margin-top: 100px;
+}
