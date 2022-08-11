@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Minter from './components/minter/Minter'
 import Home from './components/home.jsx'
+import { useState } from 'react';
 function App() {
   return (
     <div className="App">
@@ -12,8 +13,6 @@ function App() {
           <Route path="/minter" element={<Minter />}></Route>
         </Routes>
       </BrowserRouter>
-    
-      
     </div>
   );
 }
