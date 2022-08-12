@@ -8,7 +8,7 @@
 }
 
 .body-header {
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #fff;
 }
 .link-btn{
@@ -17,7 +17,7 @@
 .body-heading {
     color: gray;
     margin-top: -20px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .body-info {
@@ -91,7 +91,7 @@
 
 .count {
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -104,11 +104,11 @@
 /*-------------- LEFT SIDE ---------------*/
 .body-left {
     z-index: 1000;
-    margin-top: -200px;
+    margin-top: -100px;
 }
 
 .left-img {
-    width: 80%;
+    width: 70%;
     z-index: 10000;
 }
 
@@ -127,7 +127,8 @@
 }
 
 .left-header {
-    font-size: 3rem;
+    margin-top: 30px;
+    font-size: 2rem;
     color: #fff;
 }
 
@@ -138,25 +139,26 @@
 
 .left-count {
     margin-top: -10px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #fff;
 }
 
 .left-amount {
     color: gray;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .mind-contain {
+    margin-top: 40px;
     display: flex;
 }
 
 .mind-btn {
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 .mind-arrow {
-    padding: 40px 0;
+    padding: 30px 0;
     width: 100px;
     font-size: 2rem;
     background-color: #fff;
