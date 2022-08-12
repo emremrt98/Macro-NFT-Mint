@@ -1,16 +1,16 @@
 #title {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #fff !important;
 }
 
 .minter-heading {
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .mint-form-heading {
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .mint-adress {
@@ -24,16 +24,15 @@
     color: #fff;
 }
 
-.Minter {
-    margin-top: 50px;
-}
+
 
 .Minter {
     max-width: 80vh;
     max-height: 80vh;
     padding: 60px 100px;
-    margin: 0 auto;
+    margin: -40px auto;
     text-align: left;
+   
 }
 
 .minter-container {
@@ -44,8 +43,8 @@
     text-align: right;
     float: right;
     position: relative;
-    top: -156.5px;
-    left: -176px;
+    top: -115px;
+    left: -110px;
     line-height: 16px;
   }
 

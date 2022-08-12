@@ -41,9 +41,6 @@ const Minter = (props) => {
           )}
         </button>
         <div className="Minter">
-
-
-
           <br></br>
           <h1 id="title">🧙‍♂️ Macro NFT Minter</h1>
           <p className="minter-heading">
