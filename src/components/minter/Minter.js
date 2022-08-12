@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import './minter.css';
 import Navbar from '../navbar/nav.jsx'
-import { RiNotificationFill } from "react-icons/ri";
-
+import { connectWallet } from "../../utils/interact";
 const Minter = (props) => {
 
   //State variables
@@ -16,8 +15,10 @@ const Minter = (props) => {
 
   }, []);
 
-  const connectWalletPressed = async () => { //TODO: implement
-
+  const connectWalletPressed = async () => {
+    const walletResponse = await connectWallet();
+    setStatus(walletResponse.status);
+    setWallet(walletResponse.address);
   };
 
   const onMintPressed = async () => { //TODO: implement
