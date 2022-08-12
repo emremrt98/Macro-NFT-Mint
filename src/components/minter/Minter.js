@@ -18,7 +18,6 @@ const Minter = (props) => {
     const { address, status } = await getCurrentWalletConnected();
     setWallet(address)
     setStatus(status);
-
     addWalletListener();
   }, []);
 
@@ -52,11 +51,6 @@ const Minter = (props) => {
       );
     }
   }
-
-
-  const onMintPressed = async () => { //TODO: implement
-
-  };
 
   return (
     <div>
@@ -103,7 +97,7 @@ const Minter = (props) => {
               onChange={(event) => setDescription(event.target.value)}
             />
           </form>
-          <button id="mintButton" onClick={onMintPressed}>
+          <button id="mintButton" >
             Mint NFT
           </button>
           <p id="status">
