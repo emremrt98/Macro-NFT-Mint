@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 import './minter.css';
 import Navbar from '../navbar/nav.jsx'
-import { connectWallet } from "../../utils/interact";
+import {
+  connectWallet,
+  getCurrentWalletConnected //import here
+} from "../../utils/interact.js";
 const Minter = (props) => {
 
   //State variables
@@ -11,8 +14,10 @@ const Minter = (props) => {
   const [description, setDescription] = useState("");
   const [url, setURL] = useState("");
 
-  useEffect(async () => { //TODO: implement
-
+  useEffect(async () => {
+    const { address, status } = await getCurrentWalletConnected();
+    setWallet(address)
+    setStatus(status);
   }, []);
 
   const connectWalletPressed = async () => {
@@ -21,6 +26,9 @@ const Minter = (props) => {
     setWallet(walletResponse.address);
   };
 
+
+
+  
   const onMintPressed = async () => { //TODO: implement
 
   };
