@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import './minter.css';
 import Navbar from '../navbar/nav.jsx'
-
+import { RiNotificationFill } from "react-icons/ri";
 
 const Minter = (props) => {
 
@@ -28,18 +28,21 @@ const Minter = (props) => {
     <div>
       <Navbar />
       <div className="minter-container">
+        <button id="walletButton" onClick={connectWalletPressed}>
+          {walletAddress.length > 0 ? (
+            "Connected: " +
+            String(walletAddress).substring(0, 6) +
+            "..." +
+            String(walletAddress).substring(38)
+          ) : (
+            <div>
+              <img className="metamask-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png" />
+              <div className="metamask-btn"><span>MetaMask</span></div> </div>
+          )}
+        </button>
         <div className="Minter">
 
-          <button id="walletButton" onClick={connectWalletPressed}>
-            {walletAddress.length > 0 ? (
-              "Connected: " +
-              String(walletAddress).substring(0, 6) +
-              "..." +
-              String(walletAddress).substring(38)
-            ) : (
-              <span>Connect Wallet</span>
-            )}
-          </button>
+
 
           <br></br>
           <h1 id="title">🧙‍♂️ Macro NFT Minter</h1>

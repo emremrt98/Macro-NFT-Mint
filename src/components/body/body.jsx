@@ -15,7 +15,7 @@ export default function Body() {
                     <p className='left-count'>5BNB <span className='left-amount'>$326.96</span></p>
                     <div className='mind-contain'>
                     
-                    <Link to="/minter" className='link-btn'><button className='mind-btn'>MIND</button><button className='mind-arrow'><MdArrowForwardIos /></button></Link>
+                    <Link to="/minter" className='link-btn'><button className='mind-btn'>MINT</button><button className='mind-arrow'><MdArrowForwardIos /></button></Link>
                     </div>
                 </div>
             </div>

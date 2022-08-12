@@ -39,3 +39,20 @@
 .minter-container {
     margin-top: 100px;
 }
+
+#walletButton {
+    text-align: right;
+    float: right;
+    position: relative;
+    top: -156.5px;
+    left: -176px;
+    line-height: 16px;
+  }
+
+  .metamask-img{
+    width: 50px;
+    position: absolute ;
+    top: 0;
+    left: 0;
+  }
+

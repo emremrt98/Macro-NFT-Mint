@@ -72,12 +72,7 @@ button:hover {
   padding: 32px 60px;
 }
 
-#walletButton {
-  text-align: right;
-  float: right;
-  margin-bottom: 50px;
-  line-height: 16px;
-}
+
 
 #mintButton {
   margin-top: 40px;

@@ -1,14 +1,14 @@
 .body-contain {
-    margin: 100px 180px;
+    margin: 100px 100px;
     display: flex;
 }
 
 .body-head {
-    width: 30%;
+    width: 40%;
 }
 
 .body-header {
-    font-size: 5rem;
+    font-size: 3.5rem;
     color: #fff;
 }
 .link-btn{
@@ -20,10 +20,6 @@
     font-size: 1.2rem;
 }
 
-.body-img {
-    width: 40%;
-}
-
 .body-info {
     width: 70%;
     display: flex;
@@ -32,14 +28,13 @@
 }
 
 .explore {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #fff;
     display: flex;
     align-items: center;
     position: relative;
 }
 
-/*https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/4fe329e6-3d33-4733-37e7-78c356dede00/public*/
 .explore::before {
     content: "";
     color: #b14851;
@@ -96,7 +91,7 @@
 
 .count {
     color: #fff;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
@@ -109,7 +104,7 @@
 /*-------------- LEFT SIDE ---------------*/
 .body-left {
     z-index: 1000;
-
+    margin-top: -200px;
 }
 
 .left-img {
@@ -132,12 +127,12 @@
 }
 
 .left-header {
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #fff;
 }
 
 .left-heading {
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #fff;
 }
 
