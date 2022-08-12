@@ -37,7 +37,7 @@ const Minter = (props) => {
           ) : (
             <div>
               <img className="metamask-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png" />
-              <div className="metamask-btn"><span>MetaMask</span></div> </div>
+              <div className="metamask-btn"><span className="meta-name">MetaMask</span></div> </div>
           )}
         </button>
         <div className="Minter">

@@ -53,5 +53,8 @@
     position: absolute ;
     top: 0;
     left: 0;
+    margin-left: 10px;
   }
-
+.meta-name{
+    margin-left: 30px;
+}
